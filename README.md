@@ -43,7 +43,6 @@ NB: You have to need install Gitbash,heroku software from there site
 [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python)
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=vZTFEwfkTe8&list=PLlMOodDAsO4ytqbGWRIs34fs_bIKG9lXg&index=7)
-
 1. Git Installation: https://git-scm.com/downloads
 2. Heroku Server: https://www.heroku.com
 3. Gunicorn: http://gunicorn.org
