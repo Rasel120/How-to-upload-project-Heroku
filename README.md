@@ -9,20 +9,19 @@
 [Youtube Tutorial](https://www.youtube.com/watch?v=vZTFEwfkTe8&list=PLlMOodDAsO4ytqbGWRIs34fs_bIKG9lXg&index=7)
 
 #### Contents:
-
 1. Deployment web app
 2. Different Hosting
-    1. https://www.pythonanywhere.com
-    2. https://www.heroku.com
-    3. DigitalOcean: https://m.do.co/c/ee79fbc29f9c
+    1. [Pythonanywhere](https://www.pythonanywhere.com)
+    2. [Heroku](https://www.heroku.com)
+    3. [DigitalOcean](https://www.digitalocean.com)
 1. Git Installation
 2. Heroku Configuration
 3. Heroku CLI
 4. Deploy to Heroku
  
-#### Heroku Deployment Tasks:
+#### Heroku Deployment and Command Tasks:
 ```
-1. Create a <Procfile> in root project or dir and write 	NB: Capital <P> for Prockfile
+1. Create a <Procfile> in root project or dir and write 	NB: capital letter <P> for Prockfile
    	web: gunicorn Project_Name.wsgi --log-file -
 2. Open project settings.py  Add and Edit
         ALLOWED_HOSTS 	= ['*']
@@ -36,11 +35,11 @@
 7. heroku create  or   heroku create 'Url name'
 8. heroku git:remote -a Url_name
 
-
-8. git add -A
-9. git commit -m "update heroku configuration"
-10. git push heroku master
-11. heroku ps:scale web=1  or	heroku ps:scale web=0
+9. git init
+10 git add -A
+11 git commit -m "write your commet"
+12 git push heroku master
+13 heroku ps:scale web=1   or	 heroku ps:scale web=0
     
 ```
 
@@ -48,4 +47,4 @@ Reference:
 1. Git Installation: https://git-scm.com/downloads
 2. Heroku Server: https://www.heroku.com
 3. Gunicorn: http://gunicorn.org
-4. 
+
