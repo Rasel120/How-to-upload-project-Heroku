@@ -1,24 +1,7 @@
-# How to upload project Heroku
+# How to upload Heroku
 
-#### Deploy your app to Heroku site [DEMO View](https://aqueous-basin-57981.herokuapp.com/)
+#### Deploy your Pytho Project into Heroku site [DEMO View](https://aqueous-basin-57981.herokuapp.com/)
 
-[Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python)
-
-[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/Server-side)
-
-[Youtube Tutorial](https://www.youtube.com/watch?v=vZTFEwfkTe8&list=PLlMOodDAsO4ytqbGWRIs34fs_bIKG9lXg&index=7)
-
-#### Contents:
-1. Deployment web app
-2. Different Hosting
-    1. [Pythonanywhere](https://www.pythonanywhere.com)
-    2. [Heroku](https://www.heroku.com)
-    3. [DigitalOcean](https://www.digitalocean.com)
-1. Git Installation
-2. Heroku Configuration
-3. Heroku CLI
-4. Deploy to Heroku
- 
 #### Heroku Deployment and Command Tasks:
 ```
 1. Create a <Procfile> in your root project or dir and write 	NB: Capital letter <P> for Procfile
@@ -40,10 +23,27 @@
 	9. git commit -m "write your commet"
  	10. git push heroku master
 	11. heroku ps:scale web=1   or	 heroku ps:scale web=0
+	
+NB: You have to need install Gitbash,heroku software from there site
     
 ```
 
-Reference:
+#### Contents:
+1. Deployment web app
+2. Different Hosting
+    1. [Pythonanywhere](https://www.pythonanywhere.com)
+    2. [Heroku](https://www.heroku.com)
+    3. [DigitalOcean](https://www.digitalocean.com)
+1. Git Installation
+2. Heroku Configuration
+3. Heroku CLI
+4. Deploy to Heroku
+
+#### Reference:
+[Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python)
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=vZTFEwfkTe8&list=PLlMOodDAsO4ytqbGWRIs34fs_bIKG9lXg&index=7)
+
 1. Git Installation: https://git-scm.com/downloads
 2. Heroku Server: https://www.heroku.com
 3. Gunicorn: http://gunicorn.org
