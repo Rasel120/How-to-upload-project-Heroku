@@ -4,7 +4,7 @@
 
 #### Heroku Deployment and Command Tasks:
 ```
-1. Create a <Procfile> in your root project or dir and write 	NB: Capital letter <P> for Procfile
+1. Create a <Procfile> in your root project or dir and write 	NB: Capital letter < P > for Procfile and set Project_Name.
    	web: gunicorn Project_Name.wsgi --log-file -
 2. Open project settings.py and Add or Edit
         ALLOWED_HOSTS 	= ['*']
