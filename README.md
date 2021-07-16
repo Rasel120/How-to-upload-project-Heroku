@@ -26,7 +26,12 @@
 	
 NB: You have to need install Gitbash,heroku software from there site
     
-```
+`````````````````````
+# How to Download Heroku project
+	Go to your cmd and put this and Enter
+	heroku git:clone -a Url_name
+	
+
 
 #### Contents:
 1. Deployment web app
