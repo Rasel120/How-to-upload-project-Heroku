@@ -20,7 +20,7 @@
 
 	7. git init
 	8. git add -A
-	9. git commit -m "write your commet"
+	9. git commit -am "write your commet"
  	10. git push heroku master
 	11. heroku ps:scale web=1   or	 heroku ps:scale web=0
 	
