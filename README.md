@@ -1,6 +1,6 @@
 # How to upload Heroku
 
-#### Deploy your Pytho Project into Heroku site [DEMO View](https://aqueous-basin-57981.herokuapp.com/)
+#### Deploy your Python Project into Heroku site [DEMO View](https://aqueous-basin-57981.herokuapp.com/)
 
 #### Heroku Deployment and Command Tasks:
 ```
